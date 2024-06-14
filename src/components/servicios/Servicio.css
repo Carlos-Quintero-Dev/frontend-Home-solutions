@@ -1,0 +1,52 @@
+.sau{
+    padding: 50px 0;
+    background-color: var(--color1);
+    padding-top: 100px;
+    color: black;
+    height: 550px;
+    text-align: center;
+}
+
+.caja-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.caja-container .caja{
+    height: 250px;
+    width: 270px;
+    background-color: var(--color1);
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid var(--color9);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    margin-top: 90px;
+}
+
+
+.caja-container .caja i{
+    height: 70px;
+    width: 70px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: var(--color3);
+    background: var(--color9);
+    padding: 10px;
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.caja-container .caja h3{
+    margin-top: 20px;
+    font-size: 20px;
+    color: var(--color3);
+}
+
+.caja-container .caja p{
+    padding: 0 15px;
+    font-size: 16px;
+}

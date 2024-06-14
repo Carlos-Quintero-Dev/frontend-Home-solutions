@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Serif+Text:ital@0;1&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+
+:root{
+  --color1: #d0d0d076;
+  --color2: #004643;
+  --color3: #ffa508;
+  --color4: #F2AE30;
+  --color5: #F2C12E;
+  --color6: #492e14;
+  --color7: #c7c6be;
+  --color8: #a9725c;
+  --color9: #8c4c35; 
+  --color10: #ceaf94;
+  --color11: #00000069;
+  --color12: #966e24;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: "EB Garamond", serif;
+
+}
+
+
+

@@ -1,0 +1,67 @@
+.body-SideBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 80px;
+    height: 100vh;
+    padding: 0 .3rem;
+    color: white;
+    overflow: hidden;
+    transition: all .5s linear;
+    background: var(--color6);
+    z-index: 10;
+}
+
+.body-SideBar:hover{
+    width: 190px;
+    transition: .5s;
+}
+
+.logo-SideBar{
+    height: 80px;
+    padding: 16px;
+    margin-top: 50px;
+}
+
+.menu{
+    height: 88%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.menu li{
+    padding: .5rem;
+    margin: 8px 0;
+    border-radius: 8px;
+    transition: all .5s ease-in-out;
+}
+
+.menu li:hover, .menu li.active{
+    background: #e0e0e058;
+}
+
+.menu a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.menu a span{
+    overflow: hidden;
+}
+
+.menu a .svg-inline--fa{
+    font-size: 1.2rem;
+}
+
+.logOut{
+    position: relative;
+    bottom: -200px;
+    left: 0;
+    width: 100%;
+}
